@@ -1,0 +1,227 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    padding: 0%;
+    margin: 0%;
+}
+.main
+{
+    display: flex;
+}
+.orange_triangle
+{
+    width: 65%;
+    height: 100vh;
+    background-image: url("./includes/orangetriangle.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1000px;
+}
+.logo_img
+{
+    background-image: url("./includes/Logo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60px;
+    margin-left: 20px;
+    width: 100px;
+    height: 100%;
+    stroke: none;
+
+
+}
+.logo
+{
+    width: 100%;
+    height: 12%;
+    display: flex;
+    align-items: center;
+    
+}
+.logo_txt
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 43px;
+    letter-spacing: 0.06em;
+    color: #264653;
+    margin-top: 25px;
+    margin-left: -20px;
+
+}
+.todo_svg
+{
+    height: 75%;
+    background-image: url("./includes/todo.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 600px; 
+}
+.white
+{
+    width: 35%;
+}
+.logout
+{
+    width: 100%;
+    height: 12%;
+}
+.logout_btn
+{
+    margin-left: 400px;
+    margin-top: 20px;
+    width: 90px;
+    height: 30px;
+    background: linear-gradient(90deg, #E76F51 0%, #F4A261 100%);
+    box-shadow: 0px 16px 40px rgba(231, 111, 81, 0.4);
+    border-radius: 5px;
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.06em;
+    border: black;
+}
+.logout_btn:focus
+{
+    outline: none;
+}
+.logout_btn:active
+{
+    background: #E76F51;
+}
+.fill
+{
+    /* background-color: blue; */
+    width: 80%;
+    height: 80%;
+    margin-top: 60px;
+}
+p
+{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: #264653;
+
+}
+input
+{
+    width: 300px;
+    height: 40px;
+    background: #FFECDD;
+    border-radius: 2px;
+    border: black;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #264653;
+}
+input:focus
+{
+    outline: none;
+}
+.add
+{
+    background-color: #FFECDD;;
+    height: 40px;
+    width: 40px;
+    background-image: url(./includes/add.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add:active
+{
+    background-color: #ffd0ad;
+}
+.field
+{
+    display: flex;
+}
+.days
+{
+    width: 60%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #264653;
+}
+.submit_btn
+{
+    margin-top: 20px;
+    width: 90px;
+    height: 30px;
+    background: linear-gradient(90deg, #E76F51 0%, #F4A261 100%);
+    box-shadow: 0px 16px 40px rgba(231, 111, 81, 0.4);
+    border-radius: 5px;
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.06em;
+    border: black;
+}
+.submit_btn:focus
+{
+    outline: none;
+}
+.submit_btn:active
+{
+    background: #E76F51;
+}
+.clear_btn
+{
+    margin-top: -45px;
+    margin-left: 185px;
+    width: 150px;
+    height: 30px;
+    background:white;
+    box-shadow: 0px 16px 40px rgba(231, 111, 81, 0.4);
+    border-radius: 5px;
+    color: #E76F51;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.06em;
+    border: 1.2px solid #E76F51;;
+}
+.clear_btn:focus
+{
+    outline: #E76F51;
+}
+.clear_btn:active
+{
+    background: #E76F51;
+    color: white;
+}
+h1
+{
+    margin-bottom: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 28px;
+    color: #264653;
+}

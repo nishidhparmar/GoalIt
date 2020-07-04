@@ -1,0 +1,263 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.main
+{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    overflow: hidden;
+
+}
+.orange
+{
+    width: 60%;
+    height: 100vh;
+    background: linear-gradient(228.31deg, #E76F51 3.64%, #F4A261 98.46%);
+    
+}
+.white
+{
+    width: 40%;
+    height: 100vh;
+    background-color: #FFFFFF;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+}
+.form
+{
+    width: 70%;
+    height: 75%;
+
+}
+.heading
+{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+}
+.subheading
+{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+    color: #000000;
+
+}
+.input
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50%;
+
+}
+input
+{
+    width: 20vw;
+    height: 7vh;
+    background-color: #FFECDD;
+    border: black;
+    border-radius: 5px;
+    color: black;
+    font-size: 20px;
+    font-size: 20px;
+    font-family: Roboto;
+    font-style: normal;
+}
+input:focus 
+{
+    outline: none;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    letter-spacing: 0.02em;
+    font-family: Roboto;
+    font-style: normal;
+    color: #52717D;
+    font-size: 15px;
+}
+.button
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;  
+}
+button
+{
+    background: linear-gradient(90deg, #E76F51 0%, #F4A261 100%);
+    box-shadow: 0px 16px 40px rgba(231, 111, 81, 0.4);
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    border: transparent;
+
+}
+button:focus
+{
+    outline: none;
+}
+
+
+button:hover
+{
+    background: linear-gradient(90deg, #F4A261 0%, #E76F51 100%);
+    
+}
+button:active
+{
+    background: #E76F51;
+}
+.error
+{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    color: #E76F51;
+}
+.field
+{
+    background-color: #FFECDD;
+    width: 100%;
+    display: flex;
+    border-radius: 5px;
+}
+.icon
+{
+    width: 14%;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+ 
+}
+.user
+{
+    background-image: url("./includes/user.svg");
+}
+.userorange
+{
+    background-image: url("./includes/userorange.svg");   
+}
+.lock
+{
+    background-image: url("./includes/lock.svg");
+}
+.lockorange
+{
+    background-image: url("./includes/lockorange.svg");
+}
+.eyeclose
+{
+    background-image: url("./includes/eyeclose.svg");
+}
+.eyeopen
+{
+    background-image: url("./includes/eyeopen.svg");
+}
+.login
+{
+    display: flex;
+    justify-content: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    color: #E76F51;
+    
+}
+a
+{   
+    margin-top: 20px;
+    color: #E76F51;
+    text-decoration: none;
+}
+a:hover
+{
+    color: #db2e03;
+}
+.logo_img
+{
+    background-image: url("./includes/Logo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60px;
+    margin-left: 20px;
+    width: 100px;
+    height: 100%;
+    stroke: none;
+
+
+}
+.logo
+{
+    width: 100%;
+    height: 12%;
+    display: flex;
+    align-items: center;
+    
+}
+.logo_txt
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 43px;
+    letter-spacing: 0.06em;
+    color: #264653;
+    margin-top: 25px;
+    margin-left: -20px;
+
+}
+.main_svg
+{
+    height: 550px;
+    background-image: url("./includes/main_svg.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 600px;
+}
+.quote
+{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+.quote_txt
+{
+    width: 500px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;   
+}
